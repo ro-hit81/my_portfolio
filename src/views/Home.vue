@@ -1,6 +1,8 @@
 <template>
-    <v-container>
-        HELLO   
+    <v-container class="mx-auto">
+        <v-card>
+            
+        </v-card>
     </v-container>
 </template>
 
