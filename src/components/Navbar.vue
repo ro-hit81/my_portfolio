@@ -1,5 +1,7 @@
 <template>
+
     <v-navigation-drawer
+        app
         permanent
         expand-on-hover
         :src="bg"
@@ -38,13 +40,13 @@
 
 <script>
 import Rohit from '@/assets/rohit.jpg'
-import bg from '@/assets/bg2.jpg'
+import navbg from '@/assets/navbg.jpg'
 
 export default {
     data() {
         return {
             image: Rohit,
-            bg: bg,
+            bg: navbg,
             items: [
                 {title: "ABOUT", icon: "mdi-face"},
                 {title: "EDUCATION", icon: "mdi-book-open-page-variant"},
