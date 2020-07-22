@@ -1,16 +1,17 @@
 <template>
     <nav>
-        <v-app-bar app flat :src="appbg" height="55">
+        <v-app-bar app flat height="55" color="white">
             <v-spacer></v-spacer>
-            <v-btn @click.stop="drawer = !drawer" icon>
-                <v-icon large color="white">{{drawer ? 'mdi-dots-vertical' : 'mdi-dots-horizontal'}}</v-icon>
+            <v-btn @click.stop="mini = !mini;" icon>
+                <v-icon large color="teal accent-3">{{mini ? 'mdi-dots-vertical' : 'mdi-dots-horizontal'}}</v-icon>
             </v-btn>
         </v-app-bar>
         <v-navigation-drawer
-            v-model="drawer"
+            v-if="!$vuetify.breakpoint.xsOnly"
             app
-            expand-on-hover
             :src="navbg"
+            :mini-variant="mini"
+            permanent
             dark
             >
             <v-row>
@@ -42,21 +43,23 @@
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
+
+        <Mobile v-else />
     </nav>
 </template>
 
 <script>
 import Rohit from '@/assets/rohit.jpg'
 import navbg from '@/assets/navbg.jpg'
-import appbg from '@/assets/appbg.jpg'
+import Mobile from '@/components/Navbar/Mobile'
 
 export default {
     data() {
         return {
             image: Rohit,
-            drawer: null,
+            drawer: true,
+            mini: true,
             navbg: navbg,
-            appbg: appbg,
             items: [
                 {title: "ABOUT", icon: "mdi-face"},
                 {title: "EDUCATION", icon: "mdi-book-open-page-variant"},
@@ -69,6 +72,9 @@ export default {
             ]
         }
     },
+    components: {
+        Mobile
+    }
 }
 </script>
 
