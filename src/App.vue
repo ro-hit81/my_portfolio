@@ -2,7 +2,9 @@
   <v-app>
     <Navbar />
     <v-main class="mx-2">
-      <router-view></router-view>
+      <v-expand-transition hide-on-leave="true">
+       <router-view></router-view>
+      </v-expand-transition>
     </v-main>
   </v-app>
 </template>
