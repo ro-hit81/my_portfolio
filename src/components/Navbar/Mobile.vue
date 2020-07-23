@@ -25,7 +25,7 @@
         </v-list>
         <v-divider></v-divider>
         <v-list >
-            <v-list-item link v-for="item in items" :key="item.title">
+            <v-list-item link v-for="item in items" :key="item.title" :to="item.route">
                 <v-list-item-icon>
                     <v-icon>{{item.icon}}</v-icon>
                 </v-list-item-icon>
@@ -47,14 +47,14 @@ export default {
             image: Rohit,
             navbg: navbg,
             items: [
-                {title: "ABOUT", icon: "mdi-face"},
-                {title: "EDUCATION", icon: "mdi-book-open-page-variant"},
-                {title: "PROJECT", icon: "mdi-alpha-p-circle"},
-                {title: "EXPERIENCE", icon: "mdi-briefcase"},
-                {title: "SKILLS", icon: "mdi-arm-flex"},
-                {title: "INTEREST", icon: "mdi-alpha-i-circle-outline"},
-                {title: "AWARDS", icon: "mdi-trophy"},
-                {title: "PUBLICATIONS", icon: "mdi-file-pdf-box"},
+                {title: "ABOUT", icon: "mdi-face", route: "/about"},
+                {title: "EDUCATION", icon: "mdi-book-open-page-variant", route: "/education"},
+                {title: "PROJECT", icon: "mdi-alpha-p-circle", route: "/project"},
+                {title: "EXPERIENCE", icon: "mdi-briefcase", route: "/experience"},
+                {title: "SKILLS", icon: "mdi-arm-flex", route: "/skills"},
+                {title: "INTEREST", icon: "mdi-alpha-i-circle-outline", route: "/interest"},
+                {title: "AWARDS", icon: "mdi-trophy", route: "/awards"},
+                {title: "PUBLICATIONS", icon: "mdi-file-pdf-box", route: "/publications"},
             ]
         }
     }
