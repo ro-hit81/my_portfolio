@@ -5,8 +5,7 @@ import About from '@/components/About'
 import Education from '@/components/Education'
 import Project from '@/components/Project'
 import Experience from '@/components/Experience'
-import Skills from '@/components/Skills'
-import Interest from '@/components/Interest'
+import Skills from '@/components/Skills/Skills'
 import Awards from '@/components/Awards'
 import Publications from '@/components/Publications'
 
@@ -42,11 +41,6 @@ Vue.use(VueRouter)
     path: '/skills',
     name: 'Skills',
     component: Skills
-  },
-  {
-    path: '/interest',
-    name: 'Interest',
-    component: Interest
   },
   {
     path: '/awards',

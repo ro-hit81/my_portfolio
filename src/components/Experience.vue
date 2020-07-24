@@ -5,7 +5,7 @@
                     <p>
                         <v-badge :value="hover" transition="slide-x-transition" color="cyan" :content="`${Experience.from} - ${Experience.to}`">
                             <v-hover v-model="hover">
-                                <span class="text-h6 font-weight-bold">{{Experience.title}}</span>
+                                <span class="text-h6 teal--text text--accent-4 font-weight-bold">{{Experience.title}}</span>
                             </v-hover>
                         </v-badge>
                         <br>

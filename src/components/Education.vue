@@ -112,12 +112,14 @@ export default {
 <style scoped>
 .bachelors{
     border-left: 4px solid #FF9800;
+    border-right: 4px solid #FF9800;
 }
 .highSchool{
     border-left: 4px solid #18FFFF;
-
+    border-right: 4px solid #18FFFF;
 }
 .school{
     border-left: 4px solid #D500F9;
+    border-right: 4px solid #D500F9;
 }
 </style>

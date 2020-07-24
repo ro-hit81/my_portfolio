@@ -2,10 +2,10 @@
     <panel title="PROJECTS">
         <v-card flat v-for="Project in Projects" :key="Project.title" hover ripple>
             <v-card-title>
-                <span class="text-h6 font-weight-bold">{{Project.title}}</span>
+                <span class="text-h6 teal--text text--accent-4 font-weight-bold">{{Project.title}}</span>
             </v-card-title>
             <v-card-text>
-                <p class="text-justify">
+                <p class="text-justify ml-4 ">
                     {{Project.description}}
                 </p>
             </v-card-text>

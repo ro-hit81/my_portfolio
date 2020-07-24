@@ -65,7 +65,6 @@ export default {
                 {title: "PROJECT", icon: "mdi-alpha-p-circle", route: "/project"},
                 {title: "EXPERIENCE", icon: "mdi-briefcase", route: "/experience"},
                 {title: "SKILLS", icon: "mdi-arm-flex", route: "/skills"},
-                {title: "INTEREST", icon: "mdi-alpha-i-circle-outline", route: "/interest"},
                 {title: "AWARDS", icon: "mdi-trophy", route: "/awards"},
                 {title: "PUBLICATIONS", icon: "mdi-file-pdf-box", route: "/publications"},
             ]
