@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <v-app-bar app flat height="55" color="white">
+        <v-app-bar app flat height="55" color="teal lighten-5">
             <v-btn @click.stop="mini = !mini;" icon>
                 <v-icon large color="teal accent-3">{{mini ? 'mdi-dots-vertical' : 'mdi-dots-horizontal'}}</v-icon>
             </v-btn>
