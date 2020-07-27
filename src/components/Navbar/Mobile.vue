@@ -13,7 +13,7 @@
             </v-col>
         </v-row>
         <v-list>
-            <v-list-item link>
+            <v-list-item link to="/">
                 <v-list-item-icon>
                     <v-icon>mdi-alpha-r-circle</v-icon>
                 </v-list-item-icon>
