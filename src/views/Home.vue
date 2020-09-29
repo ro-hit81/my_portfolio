@@ -40,6 +40,7 @@ export default {
     data() {
         return {
             Timeline: [
+                {id:'18', color:'purple', icon:'mdi-trophy-award', at:'September, 2020',justify:'justify-start', title:'COVID-19 Mapathon', description:`First prize in Mapathon organized by 'Nepal Geomatics Engineering Society'. The mapathon was organized with the aim of sharing geo-informatics knowledge in muliple disciplines, most importantly the sector of disease prevention & control.`},
                 {id:'17', color:'indigo', icon:'mdi-laptop', at:'June, 2020', justify:'justify-end', title:'COVID-19 Stats Web App', description:'Deployed COVOD-19 Web App for Nepali community to see all the stats relating to pandemic.'},
                 {id:'16', color:'amber', icon:'mdi-account-hard-hat', at:'January, 2020', justify:'justify-start', title:'Internship', description:'Completed Internship at GeoInformatics Center'},
                 {id:'15', color:'light-blue', icon:'mdi-certificate', at:'January, 2020', justify:'justify-end', title:'Global Navigation Satellite System', description:'Training on Global Navigation Satellite System at Asian Institute of technology.'},
