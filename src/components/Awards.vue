@@ -23,6 +23,7 @@ export default {
                 {title: 'Full scholarship from Nepal government to complete Bachelor’s Degree in Geomatics Engineering', icon: 'medal'},
                 {title: 'Honored as Entrance topper in Geomatics Engineering', icon: 'seal-variant'},
                 {title: 'Geomatics Engineering second topper (2072-2076) batch', icon: 'numeric-2-circle-outline'},
+                {title: 'Winner of COVID-19 Mapathon awarded by Nepal Geomatics Engineering Society', icon: 'trophy-award'},
             ]
         }
     }

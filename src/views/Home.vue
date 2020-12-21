@@ -40,7 +40,8 @@ export default {
     data() {
         return {
             Timeline: [
-                {id:'19', color:'orange', icon:'mdi-book-open-page-variant', at:'September, 2020',justify:'justify-end', title:'Working on Deep Learning algorithm', description:'Decription comming soon...'},
+                {id:'20', color:'orange', icon:'mdi-book-open-page-variant', at:'September, 2020',justify:'justify-start', title:'Working on Deep Learning algorithm', description:'Decription comming soon...'},
+                {id:'19', color:'deep-orange', icon:'mdi-account-hard-hat', at:'October, 2020',justify:'justify-end', title:'Joined GLODAL', description:'Working as a research assistant with the major responsibility of: (1) Data processing for satellite-based land-use mapping. (2) Developing deep learning models for satellite-based land-use mapping. (3) Automatizaation code for accesing Landsat images from Google Earth Engine'},
                 {id:'18', color:'purple', icon:'mdi-trophy-award', at:'September, 2020',justify:'justify-start', title:'COVID-19 Mapathon', description:`First prize in Mapathon organized by 'Nepal Geomatics Engineering Society'. The mapathon was organized with the aim of sharing geo-informatics knowledge in muliple disciplines, most importantly the sector of disease prevention & control.`},
                 {id:'17', color:'indigo', icon:'mdi-laptop', at:'June, 2020', justify:'justify-end', title:'COVID-19 Stats Web App', description:'Deployed COVOD-19 Web App for Nepali community to see all the stats relating to pandemic.'},
                 {id:'16', color:'amber', icon:'mdi-account-hard-hat', at:'January, 2020', justify:'justify-start', title:'Internship', description:'Completed Internship at GeoInformatics Center'},
